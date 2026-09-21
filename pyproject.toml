@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reflective-agent-lab"
+version = "0.1.0"
+description = "A test-time-scaling harness that turns blind resampling into gated diagnosis, targeted repair, independent verification, rollback, and reusable skill extraction."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Asher"}]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["reflective_agent_lab*"]

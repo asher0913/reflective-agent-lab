@@ -1,0 +1,29 @@
+{
+  "baseline_pass_rate": 0.3333333333333333,
+  "categories": [
+    "observation_gap",
+    "ordering_gap",
+    "none"
+  ],
+  "final_pass_rate": 1.0,
+  "mean_tool_calls": 3,
+  "rollbacks": 0,
+  "skills": {
+    "already_good": [
+      "observe",
+      "authenticate"
+    ],
+    "ordered_change": [
+      "observe",
+      "authenticate",
+      "change"
+    ],
+    "safe_change": [
+      "observe",
+      "authenticate",
+      "change",
+      "check"
+    ]
+  },
+  "tasks": 3
+}

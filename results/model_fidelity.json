@@ -1,0 +1,95 @@
+{
+  "strategy": "repair in sandbox before acting",
+  "rows": [
+    {
+      "missing_preconditions": 0,
+      "success_rate": 1.0,
+      "harmful_per_100_tasks": 0.0,
+      "preconditions_learned": 0.0,
+      "harm_per_50_task_window": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "missing_preconditions": 1,
+      "success_rate": 1.0,
+      "harmful_per_100_tasks": 0.04,
+      "preconditions_learned": 1.0,
+      "harm_per_50_task_window": [
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "missing_preconditions": 2,
+      "success_rate": 1.0,
+      "harmful_per_100_tasks": 0.04,
+      "preconditions_learned": 1.8,
+      "harm_per_50_task_window": [
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "missing_preconditions": 4,
+      "success_rate": 0.9996,
+      "harmful_per_100_tasks": 0.08,
+      "preconditions_learned": 3.4,
+      "harm_per_50_task_window": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "missing_preconditions": 6,
+      "success_rate": 0.9987999999999999,
+      "harmful_per_100_tasks": 0.12000000000000002,
+      "preconditions_learned": 5.4,
+      "harm_per_50_task_window": [
+        0.6,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

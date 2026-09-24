@@ -1,0 +1,162 @@
+{
+  "single attempt": [
+    {
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "harmful_per_100_tasks": 0.0
+    },
+    {
+      "error_rate": 0.1,
+      "success_rate": 0.9144444444444444,
+      "harmful_per_100_tasks": 1.4444444444444446
+    },
+    {
+      "error_rate": 0.2,
+      "success_rate": 0.8466666666666667,
+      "harmful_per_100_tasks": 2.6666666666666665
+    },
+    {
+      "error_rate": 0.35,
+      "success_rate": 0.6922222222222222,
+      "harmful_per_100_tasks": 5.666666666666667
+    },
+    {
+      "error_rate": 0.5,
+      "success_rate": 0.5533333333333333,
+      "harmful_per_100_tasks": 7.222222222222221
+    },
+    {
+      "error_rate": 0.7,
+      "success_rate": 0.36333333333333334,
+      "harmful_per_100_tasks": 11.0
+    }
+  ],
+  "blind retry (3 samples)": [
+    {
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "harmful_per_100_tasks": 0.0
+    },
+    {
+      "error_rate": 0.1,
+      "success_rate": 0.9988888888888888,
+      "harmful_per_100_tasks": 0.2222222222222222
+    },
+    {
+      "error_rate": 0.2,
+      "success_rate": 0.991111111111111,
+      "harmful_per_100_tasks": 0.5555555555555555
+    },
+    {
+      "error_rate": 0.35,
+      "success_rate": 0.958888888888889,
+      "harmful_per_100_tasks": 2.0
+    },
+    {
+      "error_rate": 0.5,
+      "success_rate": 0.9044444444444445,
+      "harmful_per_100_tasks": 4.666666666666667
+    },
+    {
+      "error_rate": 0.7,
+      "success_rate": 0.7677777777777778,
+      "harmful_per_100_tasks": 10.555555555555555
+    }
+  ],
+  "reflect and repair (3 attempts)": [
+    {
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "harmful_per_100_tasks": 0.0
+    },
+    {
+      "error_rate": 0.1,
+      "success_rate": 0.9888888888888889,
+      "harmful_per_100_tasks": 3.4444444444444446
+    },
+    {
+      "error_rate": 0.2,
+      "success_rate": 0.9833333333333334,
+      "harmful_per_100_tasks": 5.444444444444444
+    },
+    {
+      "error_rate": 0.35,
+      "success_rate": 0.9633333333333334,
+      "harmful_per_100_tasks": 12.222222222222221
+    },
+    {
+      "error_rate": 0.5,
+      "success_rate": 0.9477777777777777,
+      "harmful_per_100_tasks": 16.444444444444443
+    },
+    {
+      "error_rate": 0.7,
+      "success_rate": 0.9266666666666667,
+      "harmful_per_100_tasks": 24.222222222222225
+    }
+  ],
+  "repair in sandbox before acting": [
+    {
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "harmful_per_100_tasks": 0.0
+    },
+    {
+      "error_rate": 0.1,
+      "success_rate": 1.0,
+      "harmful_per_100_tasks": 0.0
+    },
+    {
+      "error_rate": 0.2,
+      "success_rate": 1.0,
+      "harmful_per_100_tasks": 0.0
+    },
+    {
+      "error_rate": 0.35,
+      "success_rate": 1.0,
+      "harmful_per_100_tasks": 0.0
+    },
+    {
+      "error_rate": 0.5,
+      "success_rate": 1.0,
+      "harmful_per_100_tasks": 0.0
+    },
+    {
+      "error_rate": 0.7,
+      "success_rate": 1.0,
+      "harmful_per_100_tasks": 0.0
+    }
+  ],
+  "sandbox repair + verified skills": [
+    {
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "harmful_per_100_tasks": 0.0
+    },
+    {
+      "error_rate": 0.1,
+      "success_rate": 1.0,
+      "harmful_per_100_tasks": 0.0
+    },
+    {
+      "error_rate": 0.2,
+      "success_rate": 1.0,
+      "harmful_per_100_tasks": 0.0
+    },
+    {
+      "error_rate": 0.35,
+      "success_rate": 1.0,
+      "harmful_per_100_tasks": 0.0
+    },
+    {
+      "error_rate": 0.5,
+      "success_rate": 1.0,
+      "harmful_per_100_tasks": 0.0
+    },
+    {
+      "error_rate": 0.7,
+      "success_rate": 1.0,
+      "harmful_per_100_tasks": 0.0
+    }
+  ]
+}

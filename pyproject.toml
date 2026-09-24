@@ -4,17 +4,30 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "reflective-agent-lab"
-version = "0.1.0"
-description = "A test-time-scaling harness that turns blind resampling into gated diagnosis, targeted repair, independent verification, rollback, and reusable skill extraction."
+version = "1.0.0"
+description = "Tool-using agent strategies under a noisy planner: blind retry, reflect-and-repair, sandbox verification with scope gating, and verified skill reuse, measured on success, tool calls, irreversible side effects and recovery from tool drift."
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 license = {text = "MIT"}
-authors = [{name = "Asher"}]
-classifiers = [
-  "Programming Language :: Python :: 3",
-  "License :: OSI Approved :: MIT License",
-]
+authors = [{name = "Yixuan Zhang"}]
+dependencies = []
+
+[project.optional-dependencies]
+viz = ["matplotlib>=3.7"]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+reflect-lab = "reflect.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["reflective_agent_lab*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]

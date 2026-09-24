@@ -1,0 +1,93 @@
+{
+  "setup": {
+    "tasks": 500,
+    "drift_at": 250,
+    "planner_error_rate": 0.35,
+    "seeds": 5
+  },
+  "strategies": {
+    "single attempt": {
+      "success_rate": 0.682,
+      "success_first_50_after_drift": 0.6839999999999999,
+      "real_calls_per_task": 6.186,
+      "real_calls_per_success": 9.073822438077062,
+      "planner_calls_per_task": 1.318,
+      "harmful_per_100_tasks": 5.6,
+      "harmful_first_50_after_drift": 3.2,
+      "skill_reuse_rate": 0.0,
+      "success_by_planner_error": {
+        "drop_step": 0.0,
+        "hallucinated_tool": 0.0,
+        "none": 0.9975690570843735,
+        "swap_steps": 0.23078659263441872,
+        "unrequested_irreversible": 0.07738544844887994
+      }
+    },
+    "blind retry (3 samples)": {
+      "success_rate": 0.9655999999999999,
+      "success_first_50_after_drift": 0.9480000000000001,
+      "real_calls_per_task": 8.502799999999999,
+      "real_calls_per_success": 8.806679311244954,
+      "planner_calls_per_task": 1.4544000000000001,
+      "harmful_per_100_tasks": 2.12,
+      "harmful_first_50_after_drift": 2.2,
+      "skill_reuse_rate": 0.0,
+      "success_by_planner_error": {
+        "drop_step": 0.905929360494578,
+        "hallucinated_tool": 0.8895827843653932,
+        "none": 1.0,
+        "swap_steps": 0.9132018947236338,
+        "unrequested_irreversible": 0.8906839446583128
+      }
+    },
+    "reflect and repair (3 attempts)": {
+      "success_rate": 0.9468,
+      "success_first_50_after_drift": 0.924,
+      "real_calls_per_task": 8.8132,
+      "real_calls_per_success": 9.309032133745099,
+      "planner_calls_per_task": 1.0,
+      "harmful_per_100_tasks": 12.0,
+      "harmful_first_50_after_drift": 7.2,
+      "skill_reuse_rate": 0.0,
+      "success_by_planner_error": {
+        "drop_step": 1.0,
+        "hallucinated_tool": 0.737610891523935,
+        "none": 1.0,
+        "swap_steps": 1.0,
+        "unrequested_irreversible": 0.6445388748578323
+      }
+    },
+    "repair in sandbox before acting": {
+      "success_rate": 1.0,
+      "success_first_50_after_drift": 1.0,
+      "real_calls_per_task": 7.219200000000001,
+      "real_calls_per_success": 7.219200000000001,
+      "planner_calls_per_task": 1.0,
+      "harmful_per_100_tasks": 0.2,
+      "harmful_first_50_after_drift": 1.0,
+      "skill_reuse_rate": 0.0,
+      "success_by_planner_error": {
+        "drop_step": 1.0,
+        "hallucinated_tool": 1.0,
+        "none": 1.0,
+        "swap_steps": 1.0,
+        "unrequested_irreversible": 1.0
+      }
+    },
+    "sandbox repair + verified skills": {
+      "success_rate": 1.0,
+      "success_first_50_after_drift": 1.0,
+      "real_calls_per_task": 7.1556,
+      "real_calls_per_success": 7.1556,
+      "planner_calls_per_task": 0.03,
+      "harmful_per_100_tasks": 0.2,
+      "harmful_first_50_after_drift": 1.0,
+      "skill_reuse_rate": 0.97,
+      "success_by_planner_error": {
+        "drop_step": 1.0,
+        "none": 1.0,
+        "unrequested_irreversible": 1.0
+      }
+    }
+  }
+}
